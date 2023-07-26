@@ -11,7 +11,7 @@ let initialTime = 30; // Correccion: que el tiempo que figura en el inicio coinc
 let countdownTimeId = null;
 
 let winAudio = new Audio(`./sounds/win.wav`);
-let clickAudio = new Audio(`./sounds/click.wav`);
+let clickAudio = new Audio(`/sounds/click.wav`);
 let loseAudio = new Audio(`./sounds/lose.wav`);
 let rightAudio = new Audio(`./sounds/right.wav`);
 let wrongAudio = new Audio(`./sounds/wrong.wav`);
